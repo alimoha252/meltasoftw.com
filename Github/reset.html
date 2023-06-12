@@ -1,0 +1,71 @@
+<html>  
+<head>  
+<title> Password Matching Validation </title>  
+</head> 
+<style>
+	body{
+  background-size: cover;
+  color: white;
+  font-family: Sans-Serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 25px;
+  border-radius: 0.8rem;
+  background-color: rgb(0,0,0,0.4);
+  width: 100px;
+  font-size: 20px;
+  /*font-weight: 400;
+  color: #000;*/
+}
+./*h*/
+.link2 a{
+  text-decoration: none;
+  width: 290px;
+  height: 35px;
+  border: none;
+  border-radius: 3%;
+  color: white;
+  background-color: #007dff;
+  padding: 15px 25px;
+}
+</style> 
+<script>  
+function matchPassword() {  
+  var pw1 = document.getElementById("pswd1");  
+  var pw2 = document.getElementById("pswd2");  
+  if(pw1 != pw2)  
+  {   
+    alert("Passwords did not match");  
+  } else {  
+    alert("Password created successfully");  
+  }  
+}  
+</script>  
+  
+<body>  
+<center>  
+<form>  
+<h1 style="color:green">NEW PASSWORD</h1>  
+<h3> Confirm password Validation Example </h3>  
+ 
+ <div class="pass">
+<input type = "password" placeholder="enter new password"> <br><br>
+</div>  
+  
+<input type = "password" placeholder="confirm password"> <br><br>  
+ 
+<!?Click to validate confirm password -->  
+<div class="btn">
+<div class="link2">
+<a href="index.html">reset</a> 
+</div> 
+</div>
+ 
+  
+</form>  
+</center>  
+</body>  
+</html>  
